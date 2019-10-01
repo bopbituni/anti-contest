@@ -10,4 +10,3 @@ with open('contest.yaml', 'r') as yaml_file:
     data = yaml_file.read()
 
 data = load(data, Loader = Loader)
-print(data)
